@@ -52,4 +52,5 @@ export const WrapperListContent = styled(Col)`
     gap: 16px;
     padding: 16px;
     background-color: #fff;
+    height: 1000px;
 `
