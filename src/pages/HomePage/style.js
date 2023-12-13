@@ -1,14 +1,16 @@
 import { Row, Col } from "antd";
 import styled from "styled-components";
+import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 
 export const WrapperPageHome = styled(Row)`
-    padding: 12px 120px;
+    padding: 10px 120px;
     background-color: #efefef;
+    border-radius: 6px;
+    flex-wrap: nowrap;
 `
 
 export const WrapperContent = styled.div`
     display: flex;
-    padding-top: 16px;
     justify-content: space-between;
 `
 
@@ -23,9 +25,9 @@ export const WrapperProduct = styled.div`
 
 export const WrapperTypeProduct = styled(Col)`
     width: 230px;
-    max-height: 100vh;
+    margin-right: 10px;
+    max-height: 100%;
     position: sticky;
-    overflow-y: scroll;
     top: 16px;
     display: flex;
     padding-bottom: 40px;
@@ -52,5 +54,11 @@ export const WrapperListContent = styled(Col)`
     gap: 16px;
     padding: 16px;
     background-color: #fff;
-    height: 1000px;
+    height: 100%;
+`
+
+export const WrapperButtonMore = styled(ButtonComponent) `
+    &:hover {
+        background-color: rgba(0, 96, 255, 0.12);
+    }
 `
