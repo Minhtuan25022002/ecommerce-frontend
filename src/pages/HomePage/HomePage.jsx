@@ -26,7 +26,7 @@ const HomePage = () => {
         </WrapperTypeProduct>
         <WrapperListContent span={18}>
           <SliderComponent arrImage={[slider1, slider2, slider3]}/>
-          <div style={{ display: 'flex', marginTop: '20px', alignItems: 'center', gap: '20px', flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', marginTop: '20px', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
             <CardComponent />
             <CardComponent />
             <CardComponent />

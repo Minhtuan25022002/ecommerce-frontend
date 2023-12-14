@@ -3,7 +3,8 @@ import styled from "styled-components";
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
 
 export const WrapperStyleImageSmall = styled(Image)`
-    
+    width: 150px;
+    height: 150px;
 `
 
 export const WrapperStyleCol = styled(Col)`

@@ -1,4 +1,4 @@
-import { Col, Image, InputNumber, Row } from "antd";
+import { Col, Image, Row } from "antd";
 import React from "react";
 import imageProduct from '../../assets/images/slider7bigtest.webp'
 import { WrapperAddressProduct, WrapperBtnBuy, WrapperInputNumber, WrapperPriceProduct, WrapperPriceTextProduct, WrapperQuantityProduct, WrapperStyleCol, WrapperStyleImageSmall, WrapperStyleNameProduct, WrapperStyleTextSell } from "./style";
@@ -15,23 +15,23 @@ function ProductDetailComponent() {
                     <Image src={imageProduct} alt="image product" preview={false}/>
                     <Row style={{ paddingTop: '10px', justifyContent: 'space-between' }}>
                         <WrapperStyleCol span={4}>
-                            <WrapperStyleImageSmall style={{ width: '100px', height: '100px' }} src={imageProductSmall} alt="image small" preview={false} />
+                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
                         </WrapperStyleCol>
                         <WrapperStyleCol span={4}>
-                            <WrapperStyleImageSmall style={{ width: '100px', height: '100px' }} src={imageProductSmall} alt="image small" preview={false} />
+                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
                         </WrapperStyleCol>
                         <WrapperStyleCol span={4}>
-                            <WrapperStyleImageSmall style={{ width: '100px', height: '100px' }} src={imageProductSmall} alt="image small" preview={false} />
+                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
                         </WrapperStyleCol>
                         <WrapperStyleCol span={4}>
-                            <WrapperStyleImageSmall style={{ width: '100px', height: '100px' }} src={imageProductSmall} alt="image small" preview={false} />
+                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
                         </WrapperStyleCol>
                         <WrapperStyleCol span={4}>
-                            <WrapperStyleImageSmall style={{ width: '100px', height: '100px' }} src={imageProductSmall} alt="image small" preview={false} />
+                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
                         </WrapperStyleCol>
-                        <WrapperStyleCol span={4}>
-                            <WrapperStyleImageSmall style={{ width: '100px', height: '100px' }} src={imageProductSmall} alt="image small" preview={false} />
-                        </WrapperStyleCol>
+                        {/* <WrapperStyleCol span={4}>
+                            <WrapperStyleImageSmall src={imageProductSmall} alt="image small" preview={false} />
+                        </WrapperStyleCol> */}
                     </Row>
                 </div>
             </Col>
