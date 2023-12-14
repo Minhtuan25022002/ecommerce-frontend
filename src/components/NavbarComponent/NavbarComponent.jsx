@@ -44,7 +44,7 @@ function NavbarComponent() {
     }
     return (
         <div>
-            <WrapperLabelText>label</WrapperLabelText>
+            <WrapperLabelText>Label</WrapperLabelText>
             <WrapperContent>
                 {renderContent('text', ['Tủ lạnh', 'TV', 'Điện thoại'])}
             </WrapperContent>

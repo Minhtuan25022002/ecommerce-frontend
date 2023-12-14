@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const WrapperLabelText = styled.h4`
+export const WrapperLabelText = styled.h1`
     color: rgb(56, 56, 61);
     font-size: 14px;
     font-weight: 500;

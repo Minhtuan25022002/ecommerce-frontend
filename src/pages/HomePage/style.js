@@ -26,11 +26,10 @@ export const WrapperProduct = styled.div`
 export const WrapperTypeProduct = styled(Col)`
     width: 230px;
     margin-right: 10px;
-    max-height: 100%;
+    height: fit-content;
     position: sticky;
     top: 16px;
     display: flex;
-    padding-bottom: 40px;
     flex-direction: column;
     color: rgb(56, 56, 61);
     font-size: 14px;
